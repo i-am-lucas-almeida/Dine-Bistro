@@ -1,0 +1,121 @@
+@import '../base/App.css';
+
+.header-reservation{
+    background-image: url("../../assets/booking/hero-bg-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--white);
+    width: 100%;
+    padding: 5rem 0;
+    padding-bottom: 10rem;
+}
+
+.logo-reservation{
+    position: absolute;
+    top: 5rem;
+}
+
+.header-reservation > div{
+    margin-top: 10rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.box-reservation_left{
+    width: 50rem;
+}
+
+.box-reservation_left > h1{
+    margin-bottom: 2rem;
+    font-size: 7rem;
+    font-weight: 300;
+}
+
+.box-reservation_left > p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.reservation-c{
+    height: 40rem;
+    position: relative;
+}
+
+.reservation-c > .backg-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+@media(max-width: 1200px) {
+
+    .header-reservation{
+        background-image: url("../../assets/booking/hero-bg-tablet.jpg");
+        background-position: center center;
+        color: var(--white);
+        width: 100%;
+        padding: 5rem 0;
+    }
+
+    .logo-reservation{
+        margin-bottom: 50px;
+        position: static;
+        text-align: center;
+    }
+
+    .header-reservation > div{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .box-reservation_left{
+        width: 60rem;
+        margin-bottom: 50px;
+    }
+
+    .box-reservation_left > h1{
+        font-size: 6rem;
+    }
+
+    .reservation-c > .backg-image{
+        position: absolute;
+        left: -30rem;
+        top: 0;
+        z-index: -2;
+    }
+
+}
+
+@media(max-width: 800px) {
+
+    .reservation-c > .backg-image{
+        display: none;
+    }
+
+}
+
+@media(max-width: 700px) {
+
+    .box-reservation_left{
+        width: 45rem;
+    }
+
+    .box-reservation_left > h1{
+        font-size: 4.5rem;
+    }
+
+}
+
+@media(max-width: 500px) {
+
+    .box-reservation_left{
+        width: 35rem;
+    }
+
+}

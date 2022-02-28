@@ -1,0 +1,28 @@
+@import '../base/App.css';
+
+button{
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    border: 1.5px solid transparent;
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 2rem 4rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn-header_home, .btn-preFooter{
+    border-color: var(--white);
+}
+
+.btn-header_home:hover, .btn-preFooter:hover{
+    background-color: var(--white);
+    color: var(--codGray);
+}
+
+.btn-header_home:focus, .btn-preFooter:focus{
+    outline: var(--outline);
+    outline-offset: 0.5rem;
+}

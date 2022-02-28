@@ -1,0 +1,80 @@
+@import '../base/App.css';
+
+.header-home{
+    display: block;
+    background-image: url("../../assets/homepage/hero-bg-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--white);
+    padding-bottom: 15rem;
+}
+
+.header-text{
+    width: 60rem;
+    padding-top: 5rem;
+}
+
+.header-text > h1{
+    font-size: 7rem;
+    font-weight: 400;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.header-text > p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    line-height: 28px;
+}
+
+@media(max-width: 1200px) {
+
+    .header-home{
+        background-color: #111;
+        background-image: url("../../assets/homepage/hero-bg-tablet.jpg");
+        background-size: contain;
+        background-position: top center;
+    }
+
+    .logo-home{
+        text-align: center;
+        padding-top: 12rem;
+        padding-bottom: 10rem;
+    }
+    
+    .header-text{
+        margin: 0 auto;
+        padding-top: 30rem;
+        max-width: 100%;
+        width: 60rem;
+        text-align: center;
+    }
+
+    .header-text > h1{
+        font-size: 5rem;
+        margin-top: 5rem;
+    }
+    
+    .header-text > p{
+        font-size: 1.8rem;
+    }
+
+    .btn-header{
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .header-text{
+        padding-top: 25rem;
+    }
+
+    .header-text > h1{
+        font-size: 4rem;
+        margin-top: 5rem;
+    }
+
+}
