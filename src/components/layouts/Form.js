@@ -64,7 +64,7 @@ function Form() {
 
                         <FaCheckCircle className='icon animate__animated animate__bounce' />
 
-                        <h2>Sua reserva foi efetuada com sucesso!</h2>
+                        <h2>Reserva efetuada com sucesso!</h2>
 
                     </aside>
 
