@@ -1,9 +1,6 @@
-import menuImage_1 from '../../assets/homepage/salmon-desktop.jpg';
-import menuImage_2 from '../../assets/homepage/beef-desktop.jpg';
-import menuImage_3 from '../../assets/homepage/chocolate-desktop.jpg';
-import patternLine from '../../assets/patterns/pattern-divide.svg';
-
+import {menuList} from '../../assets/data';
 import '../../styles/layouts/Menu.css';
+import patternLine from '../../assets/patterns/pattern-divide.svg';
 
 export default function Menu() {
 
@@ -25,14 +22,14 @@ export default function Menu() {
 
                 <aside>
 
-                    <img src={menuImage_1} alt='Filé De Salmão Selado' />
+                    <img src={menuList[0].image} alt='Filé De Salmão Selado' />
                     <img src={patternLine} alt='' className='line' />
 
                     <article>
 
-                        <h3>Filé De Salmão Selado</h3>
+                        <h3>{menuList[0].name}</h3>
 
-                        <p>Nosso salmão de origem local servido com uma refrescante salada de verão de trigo sarraceno.</p>
+                        <p>{menuList[0].description}</p>
 
                     </article>
 
@@ -40,14 +37,14 @@ export default function Menu() {
 
                 <aside>
 
-                    <img src={menuImage_2} alt='Lombo Com Alecrim' />
+                    <img src={menuList[1].image} alt='Lombo Com Alecrim' />
                     <img src={patternLine} alt='' className='line' />
 
                     <article>
 
-                        <h3>Lombo Com Alecrim</h3>
+                        <h3>{menuList[1].name}</h3>
 
-                        <p>Nossa carne nobre servida ao seu gosto com uma deliciosa escolha de acompanhamentos sazonais.</p>
+                        <p>{menuList[1].description}</p>
 
                     </article>
 
@@ -55,14 +52,14 @@ export default function Menu() {
 
                 <aside className='border-none'>
 
-                    <img src={menuImage_3} alt='Mousse De Chocolate' />
+                    <img src={menuList[2].image} alt='Mousse De Chocolate' />
                     <img src={patternLine} alt='' className='line' />
 
                     <article>
 
-                        <h3>Mousse De Chocolate</h3>
+                        <h3>{menuList[2].name}</h3>
 
-                        <p>Nosso mousse de chocolate Belga combinado com frutas de verão e raspas de chocolate amargo.</p>
+                        <p>{menuList[2].description}</p>
 
                     </article>
 

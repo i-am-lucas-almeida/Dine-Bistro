@@ -28,7 +28,7 @@
 }
 
 .box-reservation_left > h1{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-size: 7rem;
     font-weight: 300;
 }
@@ -59,10 +59,11 @@
         color: var(--white);
         width: 100%;
         padding: 5rem 0;
+        padding-bottom: 0;
     }
 
     .logo-reservation{
-        margin-bottom: 50px;
+        margin-bottom: 80px;
         position: static;
         text-align: center;
     }
@@ -115,7 +116,7 @@
 @media(max-width: 500px) {
 
     .box-reservation_left{
-        width: 35rem;
+        width: 100%;
     }
 
 }

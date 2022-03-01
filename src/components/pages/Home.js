@@ -5,8 +5,9 @@ import Menu from '../layouts/Menu';
 import '../../styles/pages/Home.css';
 
 import logoHome from '../../assets/logo.svg';
-import PreFooter from '../layouts/PreFooter';
+import Cta from '../layouts/Cta';
 import About from '../layouts/About';
+import Events from '../layouts/Events';
 
 export default function Home() {
 
@@ -22,9 +23,9 @@ export default function Home() {
                         <img src={logoHome} alt='logo'/>
                     </Link>
 
-                    <h1>Refeições requintadas desde 1989</h1>
+                    <h1>Banquetes requintados desde 1989</h1>
 
-                    <p>Experimente nosso menu sazonal em belos cenários campestres. Coma os produtos mais frescos preparados por nossos chefs.</p>
+                    <p>Experimente nosso menu sazonal em belos cenários campestres. Coma os produtos mais frescos preparados por chefs renomados.</p>
 
                 </div>
 
@@ -42,7 +43,9 @@ export default function Home() {
 
                 <Menu/>
 
-                <PreFooter/>
+                <Events/>
+
+                <Cta/>
 
             </main>
 

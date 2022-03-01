@@ -9,7 +9,7 @@ export default function Button(props) {
     
             <Link to='/reservas'>
 
-                <button className={props.color}>{props.text}</button>
+                <button className={`${'button'} ${props.color}`}>{props.text}</button>
 
             </Link>
         

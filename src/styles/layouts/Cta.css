@@ -1,6 +1,6 @@
 @import '../base/App.css';
 
-.preFooter-c{
+.cta-c{
     background-image: url("../../assets/homepage/ready-bg-desktop@2x.jpg");
     background-size: cover;
     background-position: center;
@@ -9,27 +9,27 @@
     padding: 8rem 0;
 }
 
-.preFooter-c > div{
+.cta-c > div{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.preFooter-c > div > h1{
+.cta-c > div > h1{
     font-size: 3.5rem;
 }
 
 
 @media(max-width: 1200px) {
 
-    .preFooter-c > div{
+    .cta-c > div{
         display: grid;
         align-items: center;
         justify-content: center;
         text-align: center;
     } 
     
-    .preFooter-c > div > h1{
+    .cta-c > div > h1{
         margin-bottom: 30px;
     }
 
@@ -37,11 +37,11 @@
 
 @media(max-width: 700px) {
 
-    .preFooter-c{
+    .cta-c{
         background-image: url("../../assets/homepage/ready-bg-tablet@2x.jpg");
     }
 
-    .preFooter-c > div > h1{
+    .cta-c > div > h1{
         font-size: 3rem;
     }
 

@@ -1,7 +1,7 @@
 import '../../styles/layouts/Form.css';
 
 import {useState} from 'react';
-import { Days, Minutes, Hours, Month } from '../layouts/Options';
+import { Days, Minutes, Hours, Month } from '../../assets/Options';
 import {FaCheckCircle} from 'react-icons/fa';
 import validate from './FormValidation';
 import useForm from './useForm';
@@ -58,11 +58,11 @@ function Form() {
 
         {isSubmitting && valid ? 
 
-                <div className='box-success animate__animated animate__slideInDown'>
+                <div className='box-success animate__animated animate__fadeIn'>
 
                     <aside>
 
-                        <FaCheckCircle className='icon' />
+                        <FaCheckCircle className='icon animate__animated animate__bounce' />
 
                         <h2>Sua reserva foi efetuada com sucesso!</h2>
 
@@ -102,7 +102,7 @@ function Form() {
 
                 <div className="date-area">
 
-                    <h4>Escolha uma data</h4>
+                    <h4>Data da reserva</h4>
 
                     <div>
 
@@ -133,7 +133,7 @@ function Form() {
 
                 <div className="time-area">
 
-                    <h4>Escolha um horário</h4>
+                    <h4>Horário da reserva</h4>
 
                     <div>
 

@@ -28,7 +28,7 @@ export default function validate(values) {
 
   }
 
-  if (((values.hour < 9 || values.hour === '12') && values.period === "AM")) {
+  if (((values.hour < 9 || values.hour === '12') && values.period === "am")) {
 
     errors.time = "Horário inválido";
 

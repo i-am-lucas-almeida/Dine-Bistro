@@ -50,7 +50,7 @@ export function Month() {
             <option value="">MM</option>
             <option value="janeiro">01</option>
             <option value="fevereiro">02</option>
-            <option value="marco">03</option>
+            <option value="março">03</option>
             <option value="abril">04</option>
             <option value="maio">05</option>
             <option value="junho">06</option>

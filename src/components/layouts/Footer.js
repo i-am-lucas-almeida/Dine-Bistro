@@ -27,15 +27,15 @@ export default function Footer() {
 
                             <li>Barão de Capanema</li>
 
-                            <li>São Paulo</li>
+                            <li>Santa Catarina</li>
 
-                            <li><b>(11) 96918-9947</b></li>
+                            <li><b>(47) 96918-9947</b></li>
 
                         </ul>
 
                         <ul className='box-hours'>
 
-                            <li>Horário de Funcionamento</li>
+                            <li>Horários de Funcionamento</li>
                             <li>SEG - SEX: 9H00 - 22H00</li>
                             <li>SÁB - DOM: 9H00 - 23H30</li>
 

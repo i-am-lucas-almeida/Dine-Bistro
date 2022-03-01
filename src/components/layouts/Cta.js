@@ -1,5 +1,5 @@
-import Button from '../layouts/Button';
-import '../../styles/layouts/PreFooter.css';
+import Button from './Button';
+import '../../styles/layouts/Cta.css';
 
 export default function PreFooter() {
 
@@ -7,7 +7,7 @@ export default function PreFooter() {
 
         <>
         
-            <div className='preFooter-c'>
+            <div className='cta-c'>
 
                 <div className='container'>
 
