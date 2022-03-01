@@ -56,7 +56,6 @@
     .header-reservation{
         background-image: url("../../assets/booking/hero-bg-tablet.jpg");
         background-position: center center;
-        color: var(--white);
         width: 100%;
         padding: 5rem 0;
         padding-bottom: 0;
