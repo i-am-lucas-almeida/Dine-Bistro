@@ -8,7 +8,7 @@
     min-height: 50rem;
     background-color: var(--white);
     padding: 2rem;
-    box-shadow: 0px 20px 30px #00000025;
+    box-shadow: 0px 20px 50px #3843562a;
     position: relative;
 }
 
@@ -209,7 +209,7 @@ h4{
 
 }
 
-@media(max-width: 800px) {
+@media(max-width: 750px) {
 
     .fixed-image{
         display: none;
