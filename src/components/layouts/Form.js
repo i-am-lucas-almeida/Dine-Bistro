@@ -172,7 +172,7 @@ function Form() {
 
                 </div>
 
-                <input type="submit" value="Make Reservation" className="button-reservation" id="buttonReserv" />
+                <input type="submit" value="Fazer Reserva" className="button-reservation" id="buttonReserv" />
 
             </form>
 
