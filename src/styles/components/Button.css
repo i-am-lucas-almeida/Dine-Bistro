@@ -1,0 +1,44 @@
+@import '../variables.css';
+
+.button {
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1.5px solid transparent;
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 2rem 4rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn-header_home,
+.btn-preFooter {
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.btn-events {
+    background-color: var(--codGray);
+    color: var(--white);
+    font-size: 1.4rem;
+}
+
+.btn-events:hover {
+    background-color: var(--white);
+    border-color: var(--codGray);
+    color: var(--codGray);
+}
+
+.btn-header_home:hover,
+.btn-preFooter:hover {
+    background-color: var(--white);
+    color: var(--codGray);
+}
+
+.btn-header_home:focus,
+.btn-preFooter:focus,
+.btn-events:focus {
+    outline: var(--outline);
+    outline-offset: 0.5rem;
+}
