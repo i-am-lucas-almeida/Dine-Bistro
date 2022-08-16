@@ -4,7 +4,7 @@
 
 ## Sobre
 
-Plataforma voltada para um restaurante. O site conta com múltiplas páginas totalmente responsívas, animações e design que garantem uma experiência agradável aos usuários.
+Plataforma voltada para um restaurante. O site conta com múltiplas páginas totalmente responsivas, animações e design que garantem uma experiência agradável aos usuários.
 
 ## Ferramentas Usadas
 
