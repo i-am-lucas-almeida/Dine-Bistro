@@ -1,0 +1,13 @@
+:root {
+    --beaver: #9e7f67;
+    --codGray: #111111;
+    --mirage: #17192b;
+    --ebonyClay: #242b38;
+    --shuttleGray: #5c687a;
+    --white: #ffffff;
+    --green: #2ecc71;
+    --red: #e74c3c;
+
+    --transition: .3s ease;
+    --outline: 2px dashed #9e7f67 !important;
+}
