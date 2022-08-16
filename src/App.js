@@ -1,11 +1,11 @@
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import './styles/base/App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Home from './components/pages/Home';
-import Reservations from './components/pages/Reservations';
-import ScrollToTop from './components/layouts/ScrollToTop';
+import ScrollToTop from "./components/ScrollToTop";
 
-import Footer from './components/layouts/Footer';
+import Home from "./pages/Home";
+import Reservations from "./pages/Reservations";
+
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -19,13 +19,13 @@ function App() {
 
         <Routes>
 
-          <Route path='/' element={<Home/>} />
+          <Route path="/" element={<Home />} />
 
-          <Route path='/reservas' element={<Reservations/>} />
+          <Route path="/reservas" element={<Reservations />} />
 
         </Routes>
 
-        <Footer/>
+        <Footer />
 
       </Router>
 
