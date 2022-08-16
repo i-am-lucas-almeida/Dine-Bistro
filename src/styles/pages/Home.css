@@ -1,4 +1,4 @@
-@import '../base/App.css';
+@import '../variables.css';
 
 .header-home{
     display: block;
